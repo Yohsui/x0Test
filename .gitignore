@@ -1,0 +1,35 @@
+# Created by https://www.toptal.com/developers/gitignore/api/wordpress
+# Edit at https://www.toptal.com/developers/gitignore?templates=wordpress
+
+### WordPress ###
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/www/wp-admin/
+/www/wp-content/index.php
+/www/wp-content/languages
+/www/wp-content/plugins/index.php
+/www/wp-content/themes/index.php
+/www/wp-includes/
+/www/index.php
+/www/license.txt
+/www/readme.html
+/www/wp-*.php
+/www/xmlrpc.php
+
+# Configuration
+/www/wp-config.php
+jada_plug.sh
+
+# Example themes
+
+# Example plugin
+/www/wp-content/plugins/hello.php
+
+# Uploads
+/www/wp-content/uploads/
+
+/node_modules/
+
+# End of https://www.toptal.com/developers/gitignore/api/wordpress
